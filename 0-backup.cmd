@@ -6,7 +6,7 @@ for %%m in (f g h) do (
 	if exist %%m:\media-name (
 		set MEDIA=%%m:
 		set /p w="" < %%m:\media-name
-		for %%n in (brian-usb-a brian-usb-b brian-usb-c brian-usb-d) do (
+		for %%n in (brian-usb-a brian-usb-b brian-usb-c brian-usb-d brian-usb-f) do (
 			if "%%n"=="!w!" goto :run2
 		)
 	)
