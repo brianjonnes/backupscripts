@@ -3,3 +3,4 @@ brian-usb-b
 brian-usb-c
 brian-usb-d
 brian-usb-f
+brian-usb-g
