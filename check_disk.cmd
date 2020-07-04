@@ -1,5 +1,5 @@
 
-for %%m in (f g h) do (
+for %%m in (d f g h) do (
 	if exist %%m:\media-name (
 		set MEDIA=%%m:
 		set /p w="" < %%m:\media-name
