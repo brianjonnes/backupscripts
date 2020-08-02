@@ -19,7 +19,7 @@ goto :end
 
 :run3
 echo backing up to %w% on %MEDIA%
-robocopy %rcopt% c:\shipyard %MEDIA%\tl500-shipyard /x /xf *.obj *.dll *.exe *.exp *.lib 
+robocopy %rcopt% d:\shipyard %MEDIA%\tl500-shipyard /x /xf *.obj *.dll *.exe *.exp *.lib 
 echo completed backing up to %w% on %MEDIA%
 
 :end
